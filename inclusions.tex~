@@ -1,0 +1,7 @@
+This file is included in our larget .tex file. This sort of thing is useful when you're writing something in multiple sections.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=1]{thing}
+  \caption{A smiley face, like the one appropriated by Wal-Mart}
+\end{figure}

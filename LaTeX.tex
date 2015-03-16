@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+
+\title{A Demo In \LaTeX}
+\author{Manservant Hecubus}
+\date{}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+This is a document written in \LaTeX.
+
+Notice how it is really pretty.
+
+\newpage
+
+%This is a comment.
+There is a comment above this line, but you can't see it because it is preceded with a \%. To type that, I had to type \textbackslash \%. Don't ask how I did that. (You have to type \textbackslash textbackslash. It's weird, I know.)
+
+Commenting is useful, because reasons.
+
+\newpage
+
+You can do really nice looking equations!
+
+\begin{equation}
+  e = m \cdot c^2
+\end{equation}
+\begin{equation}
+  {a^2 + b^2} = \frac{c \cdot c}{(e \cdot c)}
+\end{equation}
+\begin{equation}
+  \sqrt[3]{a^2 + b^2} = {c \cdot c \over (e \cdot c)}
+\end{equation}
+
+Text {_{subtext}} {^{supertext}}
+
+\begin*{equation}
+\sum_{n=0}^{\infty} 2^n
+\end{equation}
+
+\include{inclusions}
+
+\end{document}
